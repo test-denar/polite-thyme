@@ -1,0 +1,29 @@
+{
+  "root": true,
+  "project": {
+    "name": "polite-thyme-501e9"
+  },
+  "api": {
+    "projectId": "u65fkc7k",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool",
+    "markdown",
+    "@sanity/color-input"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    },
+    {
+      "name": "part:@sanity/desk-tool/structure",
+      "path": "./deskStructure.js"
+    }
+  ]
+}
